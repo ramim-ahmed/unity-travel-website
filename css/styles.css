@@ -54,6 +54,40 @@
     display: none;
 }
 
+/* footer styles */
+.footer {
+    background-color: #13131812;
+    height: 502px;
+    text-align: center;
+}
+
+.socials_icons_container {
+    margin-top: 50px;
+}
+
+.socials_icons_container img {
+    margin: 0px 15px;
+}
+
+.footer_content {
+    padding: 50px 20px;
+}
+
+.footer_content p {
+    margin-top: 10px;
+    color: #5A5A5D;
+    font-size: 16;
+    font-weight: 400;
+}
+
+.footer_bottom {
+    margin-top: 50px;
+}
+
+.horizontal_line {
+    margin-top: 100px;
+}
+
 /* responsive design mobile device */
 @media screen and (max-width: 600px) {
     .menu {
