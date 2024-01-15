@@ -15,6 +15,16 @@
     margin: 0 auto;
 }
 
+.btn_primary {
+    border: none;
+    outline: none;
+    appearance: none;
+    background-color: #FF5400;
+    padding: 10px 20px;
+    font-weight: 800;
+    color: #fff;
+}
+
 /* header styles */
 .logo {
     font-size: 36px;
@@ -52,6 +62,54 @@
 
 .toggle_menu_bar {
     display: none;
+}
+
+/* banner styles */
+.banner {
+    background-image: url('/assets/Group\ 40095.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    margin: 70px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner_content {
+    text-align: center;
+    color: #fff;
+    padding: 0px 20px;
+}
+
+.banner_content h1 {
+    font-size: 64px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.banner_content p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.form {
+    margin: 20px;
+    background-color: rgba(255, 255, 255, 0.179);
+    height: 70px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    width: 800px;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.form input {
+    border: none;
+    outline: none;
+    padding: 10px 20px;
 }
 
 /* footer styles */
@@ -100,5 +158,29 @@
 
     .toggle_menu_bar {
         display: block;
+    }
+
+    .banner {
+        margin: 10px;
+        height: 600px;
+    }
+
+    .form {
+        grid-template-columns: repeat(1, 1fr);
+        height: 200px;
+        padding: 30px 0px;
+        width: 400px;
+    }
+
+    .form input {
+        width: 40%;
+    }
+
+    .form button {
+        width: 50%;
+    }
+
+    .banner_content h1 {
+        font-size: 30px;
     }
 }
